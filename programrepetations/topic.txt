@@ -1,0 +1,13 @@
+#!  /bin/bash -x
+#constant variable
+is_present=1
+
+#variable
+empcheck=$((RANDOM%2))
+
+#selection
+if[$empCheck -eq $IS_PRESEN]
+then
+      echo "Employee is present"
+else
+      echo "employee is absent" fi
